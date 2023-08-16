@@ -1,0 +1,291 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Common and reset code starts  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border : none;
+    outline : none;
+}
+a {text-decoration: none;}
+ul {list-style-type: none;}
+body {font-family: 'Roboto', sans-serif;}
+img {cursor: pointer;}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 0, 119, 0.655);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #0f6fdc; 
+}
+/* Common and reset code starts  */
+
+/* Nav bar starts  */
+.nav-brand {
+    font-weight: 400;
+    font-size: 36px;
+    color : #0149a1;
+}
+.nav-item {
+    font-size: 18px;
+    font-weight: 400;
+    border : 1px solid transparent;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 0px 15px;
+    transition: 0.4s;
+}
+.nav-item:hover {
+    border : 1px solid ;
+}
+.nav__icon {
+    padding: 0;
+    border : none !important;
+}
+.nav-item i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    
+    margin-right: 5px;
+    transition: 0.4s;
+}
+.nav-item i:nth-child(1) {
+    color : #3c5a99;
+    border : 1px solid #3c5a99;
+    padding-left: 12px;
+}
+.nav-item i:nth-child(2) {
+    color : #28aae1;
+    border : 1px solid #28aae1;
+    padding-left: 10px;
+}
+.nav-item i:hover {
+    color : #000;
+    border : 1px solid #000;
+}
+
+.nav-link {
+    color : #5d6981;
+}
+/* Nav bar ends  */
+
+/* Hero section starts  */
+.hero__text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color : #0149a1;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.hero__text p {
+    font-weight: 300;
+    font-size: 25px;
+    color : #5d6981;
+}
+.hero__btn {
+    padding: 8px 30px;
+    background: #ff2d55;
+    color : #fff;
+    border : 1px solid transparent;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    transition: 0.4s;
+}
+.hero__btn:hover {
+    background:#fff;
+    color : #ff2d55 ;
+    border : 1px solid #000;
+}
+/* Hero section ends  */
+
+/* Service section starts  */
+.service-section {
+    margin: 100px 0;
+}
+.service__icon {
+    margin-bottom: 20px;
+}
+.service__text h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color : #5d6981;
+    margin-bottom: 10px;
+}
+.service__text p {
+    font-weight: 300;
+    font-size: 18px;
+    color : #7c8ca0;
+}
+/* Service section ends  */
+
+/* Creativity section starts  */
+.creativity-section {
+    background-image: url(../images/creativity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    margin: 100px 0px 0px 0px;
+}
+.creativity__btn {
+    margin-top: 30px;
+    padding: 8px 30px;
+    background: #0149a1;
+    color : #fff;
+    border : 1px solid transparent;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    transition: 0.4s;
+}
+.creativity__btn:hover {
+    background:#ff2d55;
+    color : #000;
+    border : 1px solid #000;
+}
+/* Creativity section ends  */
+
+/* Work section starts  */
+.work-section {
+    margin-bottom: 100px;
+    background: #0149a1;
+    color : #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.work-section h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.work-section > p {
+    color : #5483bb;
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.work__text {
+    color : #ffffffbe;
+}
+.work__btn {
+    padding: 8px 30px;
+    background: #fff;
+    color : #0149a1;
+    border : 1px solid transparent;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    transition: 0.4s;
+}
+.work__btn:hover {
+    background:#ff2d55;
+    color : #000;
+    border : 1px solid #000;
+}
+/* Work section ends  */
+
+/* Openion section starts  */
+.openion-section i {
+    border : 1px solid #0000003b;
+    padding: 25px;
+    border-radius: 50%;
+}
+.openion-section p, span, a {
+    color : #7c8ca0;
+}
+.openion__text p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.openion__text span {
+    font-weight: 300;
+    font-size: 18px;
+}
+.openion__text a {
+    text-decoration: underline;
+}
+.openion__btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Openion section ends  */
+
+/* Team section starts  */
+.team-section {
+    background: #edeff1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.team-section h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color : #0149a1;
+    margin-bottom: 0;
+}
+.team-section > p {
+    font-weight: 300;
+    font-size: 25px;
+    color : #5d6981;
+}
+.team__text h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color : #5d6981;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.team__text p {
+    font-weight: 300;
+    font-size: 18px;
+    color : #7c8ca0;
+}
+.team__btn {
+    padding: 8px 30px;
+    background: #ff2d55;
+    color : #fff;
+    border : 1px solid transparent;
+    border-radius: 25px;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+.team__btn:hover {
+    background:#fff;
+    color : #ff2d55 ;
+    border : 1px solid #000;
+}
+/* Team section ends   */
+
+/* Footer section starts  */
+.footer-section {
+    background: #0149a1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+.footer-section ul li a {
+    color : #fff;
+    font-weight: 300;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.footer-section p {
+    margin-bottom: 0;
+    color : #ffffffab;
+}
+/* Footer section ends  */
